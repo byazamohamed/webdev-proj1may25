@@ -1,0 +1,36 @@
+/* element */
+body{
+    /* property of the style an element */
+    background-color: #64B1F5;
+}
+
+h1{
+    /* Set h1 to be blue colour */
+    color:blue;
+    font-size: 32px;
+    text-align: center; /* by default on the left */
+    font-family: "Tagesschrift", system-ui;
+
+}
+
+h2{
+    color: red;
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: "Sansation", sans-serif;
+}
+
+p{
+    /* the font and backup/fallback font = serif, san-serif, monospace, system-ui */
+    font-family: "Courier Prime", monospace;
+}
+
+a{
+    color: darkmagenta;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
